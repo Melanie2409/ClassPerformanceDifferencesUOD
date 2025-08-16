@@ -26,13 +26,13 @@ This repository is organized into two main sections: `localization_study` and `c
     - `pixi run run-all` → run both training and testing  
   - Otherwise the detailed scripts for localization can be found in [`localization_study/loc_models/scripts`](localization_study/loc_models/scripts)
 - **Further Evaluation** → scripts for bounding box accuracy and error analysis are in [`localization_study/loc_evaluation_scripts/`](localization_study/loc_evaluation_scripts/)  
-- **Results** → experiment outputs and further evaluation reports are saved in [`localization_study/loc_results/`](localization_study/loc_results/)  
+- **Results** → experiment outputs and further evaluation reports will be saved in [`localization_study/loc_results/`]
 
 
 ### Classification Study
 - **Datasets** → our customized data is available under [`classification_study/cls_datasets/`](classification_study/cls_datasets/)  
 - **Training & Evaluation** → classifiers are stored in [`classification_study/cls_models/`](classification_study/cls_models/)  
   - These can be run directly for different dataset versions and distributions.  
-- **Results** → all experimental outputs are saved in [`classification_study/cls_results/`](classification_study/cls_results/)  
+- **Results** → all experimental outputs will be saved in [`classification_study/cls_results/`]  
 
 
