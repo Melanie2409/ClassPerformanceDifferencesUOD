@@ -11,14 +11,30 @@ This thesis focuses on the public  Detecting Underwater Objects (DUO) dataset, w
 
 Therefore, we recommend imbalanced datasets when prioritizing precision but balanced distribution for better recall. We encourage the design of class-aware detectors and evaluation protocols in future, and suggest focusing on algorithmic improvements for localization modules in particular. By providing these insights, this thesis contributes to developing more robust and higher-performing detection models, fostering further research and advancements in the application of AI to marine monitoring and conservation.
 
+
 ## Repository Usage
+
+This repository is organized into two main sections: `localization_study` and `classification_study`.  
+
+
 ### Localization Study
-- Our custom datasets for different localization experiments can be downloaded through localization_study/loc_datasets/
-- Training and evaluation is run easiest using Pixi in localization_study/loc_models/ with comand run-all-training, run-all-tests and run-all; the detailed scripts for localization are under localization_study/loc_models/
-- Scripts for further evaluation regarding bounding box accuracy and error type analysis are in localization_study/scripts/ and loc_evaluation_scripts/
-- All experiment outputs and error reports are saved in localization_study/loc_results/
+- **Datasets** → our customized data is available under [`localization_study/loc_datasets/`](localization_study/loc_datasets/)  
+- **Training & Evaluation** → handled easiest by navigating into [`localization_study/loc_models/`](localization_study/loc_models/) and using [Pixi](https://pixi.sh/) 
+  - Use the following commands:  
+    - `pixi run run-all-training` → run all training experiments  
+    - `pixi run run-all-tests` → run all evaluation experiments  
+    - `pixi run run-all` → run both training and testing  
+  - Otherwise the detailed scripts for localization can also be found here
+- **Further Evaluation** → scripts for bounding box accuracy and error analysis are in:  
+  - [`localization_study/scripts/`](localization_study/scripts/)  
+  - [`localization_study/loc_evaluation_scripts/`](localization_study/loc_evaluation_scripts/)  
+- **Results** → experiment outputs and further evaluation reports are saved in [`localization_study/loc_results/`](localization_study/loc_results/)  
+
 
 ### Classification Study
-- Our custom datasets for different classification experiments can be downloaded through classification_study/cls_datasets/
-- The classifiers are saved in classification_study/cls_models/ and can be run directly for different dataset versions and distributions 
-- All experimental results are saved in classification_study/cls_results/
+- **Datasets** → our customized data is available under [`classification_study/cls_datasets/`](classification_study/cls_datasets/)  
+- **Training & Evaluation** → classifiers are stored in [`classification_study/cls_models/`](classification_study/cls_models/)  
+  - These can be run directly for different dataset versions and distributions.  
+- **Results** → all experimental outputs are saved in [`classification_study/cls_results/`](classification_study/cls_results/)  
+
+
