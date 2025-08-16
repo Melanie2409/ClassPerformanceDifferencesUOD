@@ -21,9 +21,9 @@ This repository is organized into two main sections: `localization_study` and `c
 - **Datasets** → our customized data is available under [`localization_study/loc_datasets/`](localization_study/loc_datasets/)  
 - **Training & Evaluation** → handled easiest by navigating into [`localization_study/loc_models/`](localization_study/loc_models/) and using [Pixi](https://pixi.sh/) 
   - Use the following commands:  
-    - `pixi run run-all-training` → run all training experiments  
-    - `pixi run run-all-tests` → run all evaluation experiments  
-    - `pixi run run-all` → run both training and testing  
+    - `pixi run run-all-training` → run training for all data subsets  
+    - `pixi run run-all-tests` → run testing for all data subsets  
+    - `pixi run run-all` → run both training and testing for all data subsets
   - Otherwise the detailed scripts for localization can be found in [`localization_study/loc_models/scripts`](localization_study/loc_models/scripts)
 - **Further Evaluation** → scripts for bounding box accuracy and error analysis are in [`localization_study/loc_evaluation_scripts/`](localization_study/loc_evaluation_scripts/)  
 - **Results** → experiment outputs and further evaluation reports will be saved in `localization_study/loc_results/`
