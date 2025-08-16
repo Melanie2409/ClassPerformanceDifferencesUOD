@@ -24,7 +24,7 @@ This repository is organized into two main sections: `localization_study` and `c
     - `pixi run run-all-training` → run all training experiments  
     - `pixi run run-all-tests` → run all evaluation experiments  
     - `pixi run run-all` → run both training and testing  
-  - Otherwise the detailed scripts for localization can also be found here
+  - Otherwise the detailed scripts for localization can be found in [`localization_study/loc_models/scripts`](localization_study/loc_models/scripts)
 - **Further Evaluation** → scripts for bounding box accuracy and error analysis are in:  
   - [`localization_study/scripts/`](localization_study/scripts/)  
   - [`localization_study/loc_evaluation_scripts/`](localization_study/loc_evaluation_scripts/)  
