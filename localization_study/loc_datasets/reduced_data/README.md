@@ -4,7 +4,7 @@ This folder is intentionally left empty.
 
 Please download the dataset from:
 
-[Google Drive link here]
+[coming soon]
 
 and place the files here for local use.
 
